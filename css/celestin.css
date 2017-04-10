@@ -1,0 +1,11 @@
+body{
+	background-color: #000
+}
+.title {
+	font-family: Helvetica, Arial, Sans-Serif;
+	font size: 4em;
+	padding: 20px;
+	margin: auto 50 auto 50;
+	color:#fff;
+	text-align: center;
+}
