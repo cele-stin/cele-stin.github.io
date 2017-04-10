@@ -8,4 +8,15 @@ body{
 	margin: auto 50 auto 50;
 	color:#fff;
 	text-align: center;
+	mix-blend-mode: difference;
+}
+
+.square {
+	position: absolute;
+	top: 50px;
+	width:200px;
+	height:200px;
+	-webkit-animation: color-change-2x 2s linear infinite alternate both;
+	-moz-animation: color-change-2x 2s linear infinite alternate both;
+	animation: color-change-2x 2s linear infinite alternate both;
 }
