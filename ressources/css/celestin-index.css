@@ -2,9 +2,7 @@ body {
     background-color: #000
 }
 
-p {
-    z-index: 4;
-}
+p {}
 
 .title {
     font-family: Helvetica, Arial, Sans-Serif;
@@ -24,7 +22,6 @@ p {
     left: 25%;
     width: 50%;
     height: 50%;
-    z-index: -1;
     -webkit-animation: color-change-3x 2s linear infinite alternate both;
     -moz-animation: color-change-3x 2s linear infinite alternate both;
     animation: color-change-3x 2s linear infinite alternate both;
