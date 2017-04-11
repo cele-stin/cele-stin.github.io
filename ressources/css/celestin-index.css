@@ -1,22 +1,55 @@
-body{
-	background-color: #000
+body {
+    background-color: #000
 }
+
+p {
+    z-index: 4;
+}
+
 .title {
-	font-family: Helvetica, Arial, Sans-Serif;
-	font-size: 10em;
-	padding: 20px;
-	margin: auto 50 auto 50;
-	color:#fff;
-	text-align: center;
-	mix-blend-mode: difference;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: 10em;
+    padding: 20px;
+    margin: auto 50 auto 50;
+    color: #fff;
+    text-align: center;
+    mix-blend-mode: difference;
 }
 
 .square {
-	position: absolute;
-	top: 50px;
-	width:200px;
-	height:200px;
-	-webkit-animation: color-change-2x 2s linear infinite alternate both;
-	-moz-animation: color-change-2x 2s linear infinite alternate both;
-	animation: color-change-2x 2s linear infinite alternate both;
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    right: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    z-index: -1;
+    -webkit-animation: color-change-3x 2s linear infinite alternate both;
+    -moz-animation: color-change-3x 2s linear infinite alternate both;
+    animation: color-change-3x 2s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-3x {
+    0% {
+        background: #19dcea
+    }
+    50% {
+        background: #b22cff
+    }
+    100% {
+        background: #ea2222
+    }
+}
+
+@keyframes color-change-3x {
+    0% {
+        background: #19dcea
+    }
+    50% {
+        background: #b22cff
+    }
+    100% {
+        background: #ea2222
+    }
 }
