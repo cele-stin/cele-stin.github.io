@@ -3,7 +3,7 @@ body {
 }
 
 ::selection {
-  background: yellow;
+  background: #eef442;
 }
 
 p {
@@ -56,25 +56,25 @@ p:hover {
 
 @-webkit-keyframes color-change-3x {
     0% {
-        background: #19dcea
+        background: #eef442
     }
     50% {
-        background: #fff
+        background: #1e5919
     }
     100% {
-        background: #ea2222
+        background: #232577
     }
 }
 
 @keyframes color-change-3x {
     0% {
-        background: #19dcea
+        background: #eef442
     }
     50% {
-        background: #fff
+        background: #1e5919
     }
     100% {
-        background: #ea2222
+        background: #232577
     }
 }
 
