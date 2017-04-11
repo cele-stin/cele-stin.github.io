@@ -27,9 +27,10 @@ p:hover {
 
 .title {
     font-family: Helvetica, Arial, Sans-Serif;
+    max-width: 800px;
     font-size: 10em;
     padding: 20px;
-    margin: auto 50 auto 50;
+    margin: auto;
     color: #fff;
     text-align: center;
     mix-blend-mode: difference;
