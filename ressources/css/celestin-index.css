@@ -1,7 +1,7 @@
 body {
-    -webkit-animation: color-change-3x-2 20s linear infinite alternate both;
-    -moz-animation: color-change-3x-2 20s linear infinite alternate both;
-    animation: color-change-3x-2 20s linear infinite alternate both;
+    -webkit-animation: color-change-3x2 20s linear infinite alternate both;
+    -moz-animation: color-change-3x2 20s linear infinite alternate both;
+    animation: color-change-3x2 20s linear infinite alternate both;
 }
 
 ::selection {
@@ -55,7 +55,7 @@ p:hover {
     animation: color-change-3x 2s linear infinite alternate both;
 }
 
-@-webkit-keyframes color-change-3x-2 {
+@-webkit-keyframes color-change-3x2 {
     0% {
         background: #234170
     }
@@ -67,7 +67,7 @@ p:hover {
     }
 }
 
-@keyframes color-change-3x-2 {
+@keyframes color-change-3x2 {
     0% {
         background: #234170
     }
