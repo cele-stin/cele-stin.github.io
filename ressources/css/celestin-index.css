@@ -1,5 +1,7 @@
 body {
-    background-color: #000
+    -webkit-animation: color-change-3x 20s linear infinite alternate both;
+    -moz-animation: color-change-3x 20s linear infinite alternate both;
+    animation: color-change-3x 20s linear infinite alternate both;
 }
 
 ::selection {
