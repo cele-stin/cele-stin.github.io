@@ -57,25 +57,25 @@ p:hover {
 
 @-webkit-keyframes color-change-3x2 {
     0% {
-        background: #234170
+        background: #234737
     }
     50% {
         background: #67497f
     }
     100% {
-        background: #234737
+        background: #234170
     }
 }
 
 @keyframes color-change-3x2 {
     0% {
-        background: #234170
+        background: #234737
     }
     50% {
         background: #67497f
     }
     100% {
-        background: #234737
+        background: #234170
     }
 }
 
