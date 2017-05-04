@@ -39,11 +39,13 @@ p:active {
     color: #fff;
     text-align: center;
     mix-blend-mode: difference;
+}
+
+.blur-in{
     -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     -moz-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
-
 .holder {
     position: absolute;
     top: 40%;
