@@ -29,6 +29,21 @@ p:hover {
 p:active {
     color: #234737
 }
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border: solid white 5px;
+}
+.imageholder {
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    width: 150px;
+    height:auto;
+    z-index: 0;
+
+
+}
 
 .title {
     font-family: Helvetica, Arial, Sans-Serif;
@@ -39,6 +54,7 @@ p:active {
     color: #fff;
     text-align: center;
     mix-blend-mode: difference;
+    z-index: 5;
 }
 
 .blur-in{
