@@ -5,17 +5,16 @@ body {
 }
 
 ::selection {
-  background: #eef442;
+    background: #eef442;
 }
 
 p {
--webkit-animation: vibrate-1 0.3s linear infinite both;
+    -webkit-animation: vibrate-1 0.3s linear infinite both;
     -moz-animation: vibrate-1 0.3s linear infinite both;
     animation: vibrate-1 0.3s linear infinite both;
     animation-play-state: paused;
     -moz-animation-play-state: paused;
     -webkit-animation-play-state: paused;
-
 }
 
 p:hover {
@@ -27,6 +26,10 @@ p:hover {
     -webkit-animation-play-state: running;
 }
 
+p:active {
+    color: #234737
+}
+
 .title {
     font-family: Helvetica, Arial, Sans-Serif;
     max-width: 800px;
@@ -36,6 +39,9 @@ p:hover {
     color: #fff;
     text-align: center;
     mix-blend-mode: difference;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    -moz-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
 .holder {
@@ -216,5 +222,32 @@ p:hover {
     100% {
         -webkit-transform: translate(0);
         transform: translate(0)
+    }
+}
+
+
+@-webkit-keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0
+    }
+    100% {
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1
+    }
+}
+
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0
+    }
+    100% {
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1
     }
 }
