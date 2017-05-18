@@ -29,20 +29,20 @@ p:hover {
 p:active {
     color: #234737
 }
+
 img {
     max-width: 100%;
     max-height: 100%;
     border: solid white 5px;
 }
+
 .imageholder {
     position: absolute;
     top: 30%;
     right: 30%;
     width: 150px;
-    height:auto;
+    height: auto;
     z-index: 0;
-
-
 }
 
 .title {
@@ -57,11 +57,12 @@ img {
     z-index: 5;
 }
 
-.blur-in{
+.blur-in {
     -webkit-animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     -moz-animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     animation: text-focus-in 4s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
+
 .holder {
     position: absolute;
     top: 40%;
@@ -243,7 +244,6 @@ img {
     }
 }
 
-
 @-webkit-keyframes text-focus-in {
     0% {
         -webkit-filter: blur(12px);
@@ -257,6 +257,9 @@ img {
     }
 }
 
+canvas{
+    background: red;
+}
 @keyframes text-focus-in {
     0% {
         -webkit-filter: blur(12px);
