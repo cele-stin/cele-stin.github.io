@@ -7,7 +7,14 @@ body {
 ::selection {
     background: #eef442;
 }
-
+select {
+    position: absolute;
+    top: 30%;
+    right: 30%;
+    width: 150px;
+    height: auto;
+    z-index: 15;
+}
 p {
     -webkit-animation: vibrate-1 0.3s linear infinite both;
     -moz-animation: vibrate-1 0.3s linear infinite both;
@@ -101,6 +108,30 @@ img {
     }
     100% {
         background: #234170
+    }
+}
+
+@-webkit-keyframes color-change-3x1 {
+    0% {
+        background: red;
+    }
+    50% {
+        background: yellow;
+    }
+    100% {
+        background: yellow;
+    }
+}
+
+@keyframes color-change-3x1 {
+    0% {
+        background: red;
+    }
+    50% {
+        background: yellow;
+    }
+    100% {
+        background: yellow;
     }
 }
 

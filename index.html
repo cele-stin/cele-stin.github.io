@@ -12,6 +12,7 @@
     <meta property="og:image" content="https://celest.in/ressources/Images/og-image.jpg" />
     <link rel="stylesheet" type="text/css" href="ressources/css/celestin-index.css">
     <link rel="shortcut icon" href="favicon.ico">
+    <script src="ressources/js/background-switch.js"></script>
     <!-- GA tracking-->
     <script>
     (function(i, s, o, g, r, a, m) {
@@ -30,7 +31,7 @@
     ga('send', 'pageview');
     </script>
     <!-- Pinterest -->
-    <meta name="p:domain_verify" content="88f8228d874e4ba4a614e19e16923873"/>
+    <meta name="p:domain_verify" content="88f8228d874e4ba4a614e19e16923873" />
     <!-- Pinterest -->
 </head>
 
@@ -38,15 +39,20 @@
     <div class="holder">
         <div class="square"> </div>
     </div>
-     </div>
-    <div class="imageholder">
-        <img src="ressources/Images/unspecified.jpg"/>
     </div>
-    <div class="title">
-        <p class="blur-in">
+    <div class="imageholder">
+        <img src="ressources/Images/unspecified.jpg" />
+    </div>
+    <div id="title" class="title">
+        <p>
             Célestin vous dit bonjour :)
         </p>
     </div>
+    <select id="colorswitcher" onchange="changeBackground(this)">
+        <option value="white">some colors I like</option>
+        <option value="red">some colors I don't like</option>
+        <option value="orange">some colors nobody likes</option>
+    </select>
 </body>
 
 </html>
