@@ -8,6 +8,17 @@ body {
     background: #eef442;
 }
 
+.container-spotify {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.spotify-embed {
+    align-content: center;
+    margin-bottom: 50px;
+}
+
 .colorswitcherdiv {
     position: absolute;
     top: 28%;
@@ -16,17 +27,32 @@ body {
     height: auto;
     z-index: 15;
 }
-select {
-   border: 1px solid #fff;
-   font-size: 10px;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   color: #fff;
-   background-color: #000;
-   font-family: monospace;
+
+.menu {
+    position: absolute;
+    top: 70%;
+    color: #000;
+    font-family: monospace;
+    font-size: 2em;
+    margin-left: 20%;
+    background-color: #fff;
+    padding:20px;
+    border-radius:5px;
+    width: auto;
 }
 
-p {
+select {
+    border: 1px solid #fff;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left:30px;
+    color: #fff;
+    background-color: #000;
+    font-family: monospace;
+}
+
+h1 {
     -webkit-animation: vibrate-1 0.3s linear infinite both;
     -moz-animation: vibrate-1 0.3s linear infinite both;
     animation: vibrate-1 0.3s linear infinite both;
@@ -35,7 +61,7 @@ p {
     -webkit-animation-play-state: paused;
 }
 
-p:hover {
+h1:hover {
     -webkit-animation: vibrate-1 0.3s linear infinite both;
     -moz-animation: vibrate-1 0.3s linear infinite both;
     animation: vibrate-1 0.3s linear infinite both;
@@ -44,8 +70,15 @@ p:hover {
     -webkit-animation-play-state: running;
 }
 
-p:active {
-    color: #234737
+h1:active {
+    color: #234737;
+}
+
+h2 {
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Prata',serif;
+    font-size: 16px;
 }
 
 img {
@@ -66,13 +99,22 @@ img {
 .title {
     font-family: Helvetica, Arial, Sans-Serif;
     max-width: 800px;
-    font-size: 10em;
+    font-size: 5em;
     padding: 20px;
     margin: auto;
     color: #fff;
     text-align: center;
     mix-blend-mode: difference;
     z-index: 5;
+    font-weight: normal;
+}
+
+.title-sounds {
+    font-family: Helvetica, Arial, Sans-Serif;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    margin: 100px;
 }
 
 .blur-in {
@@ -297,10 +339,6 @@ img {
         filter: blur(0);
         opacity: 1
     }
-}
-
-canvas {
-    background: red;
 }
 
 @keyframes text-focus-in {
