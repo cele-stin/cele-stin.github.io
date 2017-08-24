@@ -890,14 +890,14 @@ h3 {
     display: none !important;
   }
   .fcolumn {
-    display: none;
-    padding-bottom: 0px;
-    box-shadow: none;
+    display: none !important;
+    padding-bottom: 0px !important;
+    box-shadow: none !important; 
   }
   .fcolumn:hover {
-    display: none;
-    padding-bottom: 0px;
-    box-shadow: none;
+    display: none !important;
+    padding-bottom: 0px !important;
+    box-shadow: none !important;
   }
   .button {
     padding-right: 15px;
