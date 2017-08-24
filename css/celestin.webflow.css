@@ -882,7 +882,7 @@ h3 {
   }
 }
 
-@media (max-width: 479px) {
+@media only screen and (max-width: 479px) {
   .heading-3 {
     font-size: 30px;
   }
