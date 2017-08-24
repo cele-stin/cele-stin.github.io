@@ -82,7 +82,8 @@ h3 {
   font-family: Lato, sans-serif;
   color: #fff;
   font-size: 12px;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
+
 
 }
 
@@ -185,6 +186,7 @@ h3 {
   -ms-flex-align: end;
   align-items: flex-end;
   opacity: 0.7;
+  -webkit-opacity: 1;
   -webkit-transition: opacity 350ms ease, box-shadow 650ms ease, padding 650ms ease, opacity 200ms ease, -webkit-transform 500ms ease;
   transition: opacity 350ms ease, box-shadow 650ms ease, padding 650ms ease, opacity 200ms ease, -webkit-transform 500ms ease;
   transition: opacity 350ms ease, transform 500ms ease, box-shadow 650ms ease, padding 650ms ease, opacity 200ms ease;
