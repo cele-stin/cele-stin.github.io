@@ -887,7 +887,7 @@ h3 {
     font-size: 30px;
   }
   .feature-holder {
-    display: none;
+    display: none !important;
   }
   .fcolumn {
     display: none;
