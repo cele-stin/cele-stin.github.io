@@ -795,6 +795,8 @@ h3 {
   text-align: center;
 }
 
+/* Tablet */
+
 @media (max-width: 991px) {
   .image-4 {
     width: 25em;
@@ -811,9 +813,26 @@ h3 {
   }
 }
 
+/* Tablet */
+
+/* Mobile Landscape */
+
 @media (max-width: 767px) {
   .heading-3 {
     font-size: 50px;
+  }
+  .feature-holder {
+    display: none ;
+  }
+  .fcolumn {
+    display: none;
+    padding-bottom: 0px;
+    box-shadow: none;
+  }
+  .fcolumn:hover {
+    display: none;
+    padding-bottom: 0px;
+    box-shadow: none;
   }
   .button {
     display: none;
@@ -882,22 +901,26 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 479px) {
+/* Mobile Landscape */
+
+/* Mobile */
+
+@media (max-width: 479px) {
   .heading-3 {
     font-size: 30px;
   }
   .feature-holder {
-    display: none !important;
+    display: none ;
   }
   .fcolumn {
-    display: none !important;
-    padding-bottom: 0px !important;
-    box-shadow: none !important; 
+    display: none;
+    padding-bottom: 0px;
+    box-shadow: none;
   }
   .fcolumn:hover {
-    display: none !important;
-    padding-bottom: 0px !important;
-    box-shadow: none !important;
+    display: none;
+    padding-bottom: 0px;
+    box-shadow: none;
   }
   .button {
     padding-right: 15px;
@@ -978,4 +1001,4 @@ h3 {
     align-items: flex-start;
   }
 }
-
+/* Mobile */
