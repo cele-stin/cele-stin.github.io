@@ -889,7 +889,10 @@ h3 {
   .fcolumn {
     padding-bottom: 0px;
   }
-  
+  .fcolumn:hover {
+    padding-bottom: 0px;
+    box-shadow: none;
+  }
   .button {
     padding-right: 15px;
     padding-left: 15px;
