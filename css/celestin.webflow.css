@@ -886,6 +886,9 @@ h3 {
   .heading-3 {
     font-size: 30px;
   }
+  .feature-holder {
+    display: none;
+  }
   .fcolumn {
     display: none;
     padding-bottom: 0px;
