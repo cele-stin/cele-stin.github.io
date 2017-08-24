@@ -888,6 +888,7 @@ h3 {
   }
   .fcolumn {
     padding-bottom: 0px;
+    box-shadow: none;
   }
   .fcolumn:hover {
     padding-bottom: 0px;
