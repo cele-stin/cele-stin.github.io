@@ -1088,15 +1088,3 @@ html.w-mod-js *[data-ix="contactcard"] {
         align-items: flex-start;
     }
 }
-.container-spotify {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
-.spotify-embed {
-    align-content: center;
-    margin-bottom: 50px;
-}
